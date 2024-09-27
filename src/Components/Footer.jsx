@@ -47,7 +47,7 @@ export default function Footer() {
   
               <p className="text-sm font-semibold md:px-12 text-black dark:text-neutral-400">
                 © 2024 Designed By{" "}
-                <a href="#" className="text-black">
+                <a href="#" className="text-black dark:text-white">
                   Kheireddine Debz
                 </a>
               </p>
