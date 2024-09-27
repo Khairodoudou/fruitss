@@ -35,10 +35,10 @@ export default function NavBar() {
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
-                    <li><Link to="header" smooth={true} className="text-black font-bold hover:bg-transparent">Home</Link></li>
-                    <li><Link to="section" smooth={true} className="text-black font-semibold hover:bg-transparent">Feature</Link></li>
-                    <li><Link to="cards" smooth={true} className="text-black font-semibold hover:bg-transparent">Menu</Link></li>
-                    <li><Link to="contact" smooth={true} className="text-black font-semibold hover:bg-transparent">Contact</Link></li>
+                    <li><Link to="header"  className="text-black font-bold hover:bg-transparent">Home</Link></li>
+                    <li><Link to="section"  className="text-black font-semibold hover:bg-transparent">Feature</Link></li>
+                    <li><Link to="cards"  className="text-black font-semibold hover:bg-transparent">Menu</Link></li>
+                    <li><Link to="contact"  className="text-black font-semibold hover:bg-transparent">Contact</Link></li>
                 </ul>
             </div>
             <div className="navbar-end">
